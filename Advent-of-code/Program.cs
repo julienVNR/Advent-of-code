@@ -27,12 +27,12 @@ namespace Advent_of_code
                     Console.WriteLine("╔════════╦═════════════════╦═══════════════════════════════╗");
                     for (int i = 1; i <= 2; i++)
                     {
+                        string res;
                         MethodInfo method = t.GetMethod("Part" + i);
                         if (method != null)
                         {
                             Stopwatch st = new Stopwatch();
                             st.Start();
-                            var res = string.Empty;
                             try
                             {
                                 res = method.Invoke(t, new object[] { input }).ToString();

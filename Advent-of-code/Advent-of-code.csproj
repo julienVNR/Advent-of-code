@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="morelinq" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Resources\Input2021.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

@@ -34,6 +34,22 @@ namespace Advent_of_code._2021
             return oxigen * CO2;
         }
 
+        public static string Filter(string[] input,bool most,int index)
+        {
+            int nb1 = input.Count(x => x[index] == '1');
+            int nb0 = input.Length - nb1;
+            char remove = (nb1 >= nb0) ? '0' : '1';
+            if(most)
+                input = input.Where(x => x[index] != remove).ToArray();
+            else
+                input = input.Where(x => x[index] == remove).ToArray();
+            index++;
+            if (input.Length == 1)
+                return input[0];
+            else
+                return Filter(input, most, index++);
+        }
+
         /* Solution JS  part1
             a = document.getElementsByTagName("pre")[0].innerHTML.split("\n").map(s => parseInt(s, 2));
             gamma = 0; 
@@ -63,23 +79,7 @@ namespace Advent_of_code._2021
             console.log(gamma* epsylon)
         */
 
-        public static string Filter(string[] input,bool most,int index)
-        {
-            int nb1 = input.Count(x => x[index] == '1');
-            int nb0 = input.Length - nb1;
-            char remove = (nb1 >= nb0) ? '0' : '1';
-            if(most)
-                input = input.Where(x => x[index] != remove).ToArray();
-            else
-                input = input.Where(x => x[index] == remove).ToArray();
-            index++;
-            if (input.Length == 1)
-                return input[0];
-            else
-                return Filter(input, most, index++);
-        }
-
-        /****
+        /**** Solution Part2 JS
          * 
          oxygen = document.getElementsByTagName("pre")[0].innerHTML.split("\n").map(s => parseInt(s, 2));
             dioxydeC = [...oxygen]; 
@@ -102,5 +102,6 @@ namespace Advent_of_code._2021
             console.log(oxygen*dioxydeC)
          * 
          */
+
     }
 }

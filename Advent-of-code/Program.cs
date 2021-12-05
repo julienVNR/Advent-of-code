@@ -41,10 +41,11 @@ namespace Advent_of_code
                                 res = "Error";
                             }
                             st.Stop();
-                            Console.WriteLine("║ Part {0} ║ {1,-15} ║ Temps d'éxécution: {2,-10} ║", i, res, Math.Round(st.Elapsed.TotalSeconds, 3) + "s");
+                            Console.WriteLine("║ Part {0} ║ {1,-15} ║ Temps d'éxécution: {2,-10} ║", i, res, Math.Round(st.Elapsed.TotalSeconds, 5) + "s");
                         }
                         if (i == 1)
                             Console.WriteLine("╠════════╬═════════════════╬═══════════════════════════════╣");
+                        GC.Collect();
                     }
                     Console.WriteLine("╚════════╩═════════════════╩═══════════════════════════════╝");
                 }

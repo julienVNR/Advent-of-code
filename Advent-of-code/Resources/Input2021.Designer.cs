@@ -310,5 +310,40 @@ namespace Advent_of_code.Resources {
                 return ResourceManager.GetString("Input4", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à 580,438 -&gt; 580,817
+        ///220,987 -&gt; 199,966
+        ///300,674 -&gt; 300,523
+        ///27,362 -&gt; 27,932
+        ///890,430 -&gt; 854,430
+        ///488,202 -&gt; 488,885
+        ///824,930 -&gt; 824,740
+        ///208,756 -&gt; 851,113
+        ///967,288 -&gt; 967,960
+        ///700,139 -&gt; 531,139
+        ///671,463 -&gt; 671,150
+        ///270,954 -&gt; 270,801
+        ///682,718 -&gt; 682,146
+        ///849,837 -&gt; 353,341
+        ///779,635 -&gt; 420,635
+        ///228,872 -&gt; 228,419
+        ///34,76 -&gt; 745,787
+        ///180,548 -&gt; 180,969
+        ///429,668 -&gt; 445,652
+        ///601,11 -&gt; 893,11
+        ///400,314 -&gt; 128,586
+        ///120,80 -&gt; 972,932
+        ///133,144 -&gt; 969,980
+        ///987,15 -&gt; 106,896
+        ///940,676 -&gt; 940,322
+        ///471,490 -&gt; 900,490
+        /// [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string Input5 {
+            get {
+                return ResourceManager.GetString("Input5", resourceCulture);
+            }
+        }
     }
 }

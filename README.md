@@ -8,6 +8,16 @@
 </tr>
 </table>
 
+## 2021
+
+
+| Day | Solution                   | Part 1     | Part 2     |
+| :-- | :--------------------------| ---------: | ---------: |
+| 1   | [Sonar Sweep](Advent-of-code/2021/Day01.cs)    | 0.12670 s | 0.00624 s |
+| 2   | [Dive !](Advent-of-code/2021/Day02.cs)    | 0.00629 s | 0.00277 s |
+| 3   | [Binary Diagnostic](Advent-of-code/2021/Day03.cs)    | 0.00991 s | 0.00292 s |
+| 4   | [Giant Squid](Advent-of-code/2021/Day04.cs)    | 0.03613 s | 0.04438 s |
+
 ## 💬 2020
 
 ### Day 1

@@ -18,12 +18,14 @@ namespace Advent_of_code._2021
             return crabs.Sum(x => Math.Abs(x - median));
         }
 
+        public static int GetSum(int nb) => (int)(nb * ((double)(nb + 1) / 2));
+
         public static int Part2(string input)
         {
             int[] crabs = input.Split(',').Select(x => int.Parse(x)).ToArray();
             int moyenne = (int)Math.Round(crabs.Average());
-            int minValue = crabs.Select(y => Enumerable.Range(1, Math.Abs(moyenne - y)).Sum()).Sum();
-            int nextValue = crabs.Select(y => Enumerable.Range(1, Math.Abs(moyenne + 1 - y)).Sum()).Sum();
+            int minValue = (int)crabs.Select(y => GetSum(Math.Abs(moyenne - y))).Sum();
+            int nextValue = (int)crabs.Select(y => GetSum(Math.Abs(moyenne+1 - y))).Sum(); ;
             int inc = 1;
             if (nextValue > minValue)
             {
@@ -36,7 +38,7 @@ namespace Advent_of_code._2021
             {
                 minValue = nextValue;
                 moyenne += inc;
-                nextValue = crabs.Select(y => Enumerable.Range(1, Math.Abs(moyenne - y)).Sum()).Sum();
+                nextValue = crabs.Select(y => GetSum(Math.Abs(moyenne - y))).Sum();
             }
             while (minValue > nextValue);
 

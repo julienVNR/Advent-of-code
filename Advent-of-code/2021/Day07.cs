@@ -24,8 +24,8 @@ namespace Advent_of_code._2021
         {
             int[] crabs = input.Split(',').Select(x => int.Parse(x)).ToArray();
             int moyenne = (int)Math.Round(crabs.Average());
-            int minValue = (int)crabs.Select(y => GetSum(Math.Abs(moyenne - y))).Sum();
-            int nextValue = (int)crabs.Select(y => GetSum(Math.Abs(moyenne+1 - y))).Sum(); ;
+            int minValue = crabs.Select(y => GetSum(Math.Abs(moyenne - y))).Sum();
+            int nextValue = crabs.Select(y => GetSum(Math.Abs(moyenne+1 - y))).Sum();
             int inc = 1;
             if (nextValue > minValue)
             {

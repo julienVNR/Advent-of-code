@@ -17,6 +17,9 @@
 | 2   | [Dive !](Advent-of-code/2021/Day02.cs)    | 0.00629 s | 0.00277 s |
 | 3   | [Binary Diagnostic](Advent-of-code/2021/Day03.cs)    | 0.00991 s | 0.00292 s |
 | 4   | [Giant Squid](Advent-of-code/2021/Day04.cs)    | 0.03613 s | 0.04438 s |
+| 5   | [Hydrothermal Venture](Advent-of-code/2021/Day05.cs)    | 0.05546 s | 0.09191 s |
+| 6   | [Lanternfish](Advent-of-code/2021/Day06.cs)    | 0.08629 s | 0.00043 s |
+| 7   | [The Treachery of Whales](Advent-of-code/2021/Day07.cs)    | 0.00096 s | 0.00809 s |
 
 ## 💬 2020
 

@@ -363,5 +363,20 @@ namespace Advent_of_code.Resources {
                 return ResourceManager.GetString("Input7", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à dac abcf ac fdbcga dgcbae gcbfde fgcbd agfed adcgf cdbgfea | cbfa bcafdg cbfa bafcgd
+        ///abfgd baedc feb fgde fbagcd facbdge agcbfe bgafde fe ebdfa | bef fe dgfe feb
+        ///dfc dc afegbc bcafe fcead agefd cafdeb fcbeadg cbed cabdfg | cd geadf cfd bfaec
+        ///efacdgb abefdg efagbc af afe gdeab dbfa dgefa acegbd cdegf | cfdge gefda ecbgdfa eaf
+        ///feg gdbea edgbca gefdab caefdbg egfda afdgc fe cgfdeb efba | edafbg bdefgc egdfa gbead
+        ///bfeac becfd cbgdf gfabed gdefcab dcae edb de bgfaec fdeabc | bcfdg eagbfd fedbc cefdb
+        ///bgecd  [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string Input8 {
+            get {
+                return ResourceManager.GetString("Input8", resourceCulture);
+            }
+        }
     }
 }

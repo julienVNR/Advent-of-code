@@ -13,13 +13,15 @@
 
 | Day | Solution                   | Part 1     | Part 2     |
 | :-- | :--------------------------| ---------: | ---------: |
-| 1   | [Sonar Sweep](Advent-of-code/2021/Day01.cs)    | 0.12670 s | 0.00624 s |
+| 1   | [Sonar Sweep](Advent-of-code/2021/Day01.cs)    | 0.06555 s | 0.00624 s |
 | 2   | [Dive !](Advent-of-code/2021/Day02.cs)    | 0.00629 s | 0.00277 s |
 | 3   | [Binary Diagnostic](Advent-of-code/2021/Day03.cs)    | 0.00991 s | 0.00292 s |
 | 4   | [Giant Squid](Advent-of-code/2021/Day04.cs)    | 0.03613 s | 0.04438 s |
 | 5   | [Hydrothermal Venture](Advent-of-code/2021/Day05.cs)    | 0.05546 s | 0.09191 s |
 | 6   | [Lanternfish](Advent-of-code/2021/Day06.cs)    | 0.08629 s | 0.00043 s |
 | 7   | [The Treachery of Whales](Advent-of-code/2021/Day07.cs)    | 0.00096 s | 0.00809 s |
+| 7   | [Seven Segment Search](Advent-of-code/2021/Day08.cs)    | 0.00115 s | 0.00823 s |
+| 7   | [Smoke Basin](Advent-of-code/2021/Day09.cs)    | 0.00466 s | 0.01249 s |
 
 ## 💬 2020
 

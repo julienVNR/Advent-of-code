@@ -20,8 +20,8 @@
 | 5   | [Hydrothermal Venture](Advent-of-code/2021/Day05.cs)    | 0.05546 s | 0.09191 s |
 | 6   | [Lanternfish](Advent-of-code/2021/Day06.cs)    | 0.08629 s | 0.00043 s |
 | 7   | [The Treachery of Whales](Advent-of-code/2021/Day07.cs)    | 0.00096 s | 0.00809 s |
-| 7   | [Seven Segment Search](Advent-of-code/2021/Day08.cs)    | 0.00115 s | 0.00823 s |
-| 7   | [Smoke Basin](Advent-of-code/2021/Day09.cs)    | 0.00466 s | 0.01249 s |
+| 8   | [Seven Segment Search](Advent-of-code/2021/Day08.cs)    | 0.00115 s | 0.00823 s |
+| 9   | [Smoke Basin](Advent-of-code/2021/Day09.cs)    | 0.00466 s | 0.01249 s |
 
 ## 💬 2020
 

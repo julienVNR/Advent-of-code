@@ -10,21 +10,17 @@ namespace Advent_of_code._2021
 
         private static IList<(int x, int y)> _neighbors(int x, int y, int maxX, int maxY)
         {
-            List<(int x, int y)> neighours = new List<(int x, int y)>();
-            if (x != 0)
-                neighours.Add((x - 1, y));
-            if (y != 0)
-                neighours.Add((x, y - 1));
-            if (x + 1 < maxX)
-                neighours.Add((x + 1, y));
-            if (y + 1 < maxY)
-                neighours.Add((x, y + 1));
+            List<(int x, int y)> neighours = new();
+            if (x != 0) neighours.Add((x - 1, y));
+            if (y != 0) neighours.Add((x, y - 1));
+            if (x + 1 < maxX) neighours.Add((x + 1, y));
+            if (y + 1 < maxY) neighours.Add((x, y + 1));
             return neighours;
         }
 
         public static List<(int, int)> LowPoints(int[][] matrix)
         {
-            List<(int, int)> points = new List<(int, int)>();
+            List<(int, int)> points = new();
             for (int i = 0; i < matrix.Length; i++)
             {
                 for (int j = 0; j < matrix[i].Length; j++)
@@ -60,9 +56,9 @@ namespace Advent_of_code._2021
         
         public static int GetBasinSize((int, int) start, int[][] matrix)
         {
-            List<(int, int)> points = new List<(int, int)>();
+            List<(int, int)> points = new();
             points.Add(start);
-            List<(int, int)> seen = new List<(int, int)>();
+            List<(int, int)> seen = new();
             while(points.Count() != 0)
             {
                 start = points[0];

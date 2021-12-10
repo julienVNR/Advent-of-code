@@ -175,6 +175,20 @@ namespace Advent_of_code.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à {&lt;&lt;{({[(&lt;&lt;((({&lt;&gt;{}}(&lt;&gt;[]))&lt;{&lt;&gt;{}}&lt;[][]&gt;&gt;)([[[][]]][{{}&lt;&gt;}]))&gt;{(([&lt;{}&gt;{{}&lt;&gt;]][[&lt;&gt;()](&lt;&gt;&lt;&gt;)]))&lt;&lt;&lt;[[][]][[]
+        ///{[([{[[[{({&lt;&lt;[&lt;&gt;[]]&lt;()[]&gt;&gt;(&lt;[]&lt;&gt;&gt;({}))&gt;&lt;{[{}()]{&lt;&gt;{}}}&lt;&lt;{}{}&gt;{{}[]}&gt;&gt;}&lt;&lt;{{&lt;&gt;()}&lt;()()&gt;}&lt;[(){}]&lt;[]{
+        ///&lt;(((&lt;([(&lt;(&lt;&lt;[&lt;[][]&gt;&lt;{}{}&gt;]&gt;&gt;)&gt;&lt;(({[({}[])&lt;[]()&gt;][&lt;[]()&gt;&lt;{}{}&gt;]}({[{}&lt;&gt;][{}()]}{({}[])}))(&lt;[{{}[]
+        ///{{&lt;[[([{({(&lt;[{()()}{{}&lt;&gt;}]({()()})&gt;){&lt;({[]&lt;&gt;}({}())){(()&lt;&gt;)&lt;[]&lt;&gt;&gt;}&gt;&lt;({()[]}{[]}){{{}{}}}&gt;}})}&lt;[[((([&lt;&gt;()
+        ///[[({&lt;&lt;([[(({([()[]]{()&lt;&gt;})&lt;{&lt;&gt;[]}[{}()]&gt;}({{[]()}{[][]}}&lt;&lt;&lt;&gt;{}&gt;{()[]}&gt;))[(([(){}])&lt;&lt;(){}&gt;{&lt;&gt;
+        ///({{{{[{[{ [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string Input10 {
+            get {
+                return ResourceManager.GetString("Input10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à forward 8
         ///down 9
         ///forward 2

@@ -189,6 +189,57 @@ namespace Advent_of_code.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à 2264552475
+        ///7681287325
+        ///3878781441
+        ///6868471776
+        ///7175255555
+        ///7517441253
+        ///3513418848
+        ///4628736747
+        ///1133155762
+        ///8816621663.
+        /// </summary>
+        internal static string Input11 {
+            get {
+                return ResourceManager.GetString("Input11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à kc-qy
+        ///qy-FN
+        ///kc-ZP
+        ///end-FN
+        ///li-ZP
+        ///yc-start
+        ///end-qy
+        ///yc-ZP
+        ///wx-ZP
+        ///qy-li
+        ///yc-li
+        ///yc-wx
+        ///kc-FN
+        ///FN-li
+        ///li-wx
+        ///kc-wx
+        ///ZP-start
+        ///li-kc
+        ///qy-nv
+        ///ZP-qy
+        ///nv-xr
+        ///wx-start
+        ///end-nv
+        ///kc-nv
+        ///nv-XQ.
+        /// </summary>
+        internal static string Input12 {
+            get {
+                return ResourceManager.GetString("Input12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à forward 8
         ///down 9
         ///forward 2

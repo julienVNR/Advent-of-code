@@ -22,7 +22,9 @@
 | 7   | [The Treachery of Whales](Advent-of-code/2021/Day07.cs)    | 0.00096 s | 0.00809 s |
 | 8   | [Seven Segment Search](Advent-of-code/2021/Day08.cs)    | 0.00115 s | 0.00823 s |
 | 9   | [Smoke Basin](Advent-of-code/2021/Day09.cs)    | 0.00466 s | 0.01249 s |
-| 9   | [Syntax Scoring](Advent-of-code/2021/Day10.cs)    | 0.00112 s | 0.00370 s |
+| 10   | [Syntax Scoring](Advent-of-code/2021/Day10.cs)    | 0.00112 s | 0.00370 s |
+| 11   | [Dumbo Octopus](Advent-of-code/2021/Day11.cs)    | 0.00153 s | 0.00224 s |
+| 12   | [Passage Pathing](Advent-of-code/2021/Day12.cs)    | 0.04504 s | 0.49745 s |
 
 ## 💬 2020
 

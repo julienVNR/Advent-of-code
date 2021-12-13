@@ -25,203 +25,34 @@
 | 10   | [Syntax Scoring](Advent-of-code/2021/Day10.cs)    | 0.00112 s | 0.00370 s |
 | 11   | [Dumbo Octopus](Advent-of-code/2021/Day11.cs)    | 0.00153 s | 0.00224 s |
 | 12   | [Passage Pathing](Advent-of-code/2021/Day12.cs)    | 0.04504 s | 0.49745 s |
+| 13   | [Transparent Origami](Advent-of-code/2021/Day13.cs)    | 0.00665 s | 0.00791 s |
 
-## 💬 2020
+## 2020
 
-### Day 1
-<table>
-<tr><td> Part 1</td>
-<td>63616</td><td> Execution time :0,0188s</td></tr>
-<tr><td> Part 2</td>
-<td>67877784</td><td> Execution time :0,0004s</td></tr>
-</table>
-
-### Day 2
-<table>
-<tr><td> Part 1</td>
-<td>398</td><td> Execution time :0,0127s</td></tr>
-<tr><td> Part 2</td>
-<td>562</td><td> Execution time :0,002s</td></tr>
-</table>
-
-### Day 3
-<table>
-<tr><td> Part 1</td>
-<td>237</td><td> Execution time < 0,0001s</td></tr>
-<tr><td> Part 2</td>
-<td>2106818610</td><td> Execution time :0,0008s</td></tr>
-</table>
-
-### Day 4
-<table>
-<tr><td> Part 1</td>
-<td>196</td><td> Execution time :0,0186s</td></tr>
-<tr><td> Part 2</td>
-<td>114</td><td> Execution time :0,0254s</td></tr>
-</table>
-
-### Day 5
-<table>
-<tr><td> Part 1</td>
-<td>965</td><td> Execution time :0,004s</td></tr>
-<tr><td> Part 2</td>
-<td>524</td><td> Execution time :0,0039s</td></tr>
-</table>
-
-### Day 6
-<table>
-<tr><td> Part 1</td>
-<td>12740</td><td> Execution time :0,2339s</td></tr>
-<tr><td> Part 2</td>
-<td>3358</td><td> Execution time :0,0081s</td></tr>
-</table>
-
-### Day 7
-<table>
-<tr><td> Part 1</td>
-<td>274</td><td> Execution time :0,0336s</td></tr>
-<tr><td> Part 2</td>
-<td>158730</td><td> Execution time :0,00032s</td></tr>
-</table>
-
-### Day 8
-<table>
-<tr><td> Part 1</td>
-<td>1753</td><td> Execution time :0,0036s</td></tr>
-<tr><td> Part 2</td>
-<td>733</td><td> Execution time :0,0046s</td></tr>
-</table>
-
-### Day 9
-<table>
-<tr><td> Part 1</td>
-<td>675280050</td><td> Execution time :0,0024s</td></tr>
-<tr><td> Part 2</td>
-<td>96081673</td><td> Execution time :0,0017s</td></tr>
-</table>
-
-### Day 10
-<table>
-<tr><td> Part 1</td>
-<td>35</td><td> Execution time :0,0027s</td></tr>
-<tr><td> Part 2</td>
-<td>8</td><td> Execution time :0,0049s</td></tr>
-</table>
-
-### Day 11
-<table>
-<tr><td> Part 1</td>
-<td>2441</td><td> Execution time :0,2383s</td></tr>
-<tr><td> Part 2</td>
-<td>2190</td><td> Execution time :0,3132s</td></tr>
-</table>
-
-### Day 12
-<table>
-<tr><td> Part 1</td>
-<td>796</td><td> Execution time :0,001s</td></tr>
-<tr><td> Part 2</td>
-<td>39446</td><td> Execution time :0,0009s</td></tr>
-</table>
-
-### Day 13
-<table>
-<tr><td> Part 1</td>
-<td>2092</td><td> Execution time :0,0024s</td></tr>
-<tr><td> Part 2</td>
-<td>702970661767766</td><td> Execution time :0,004s</td></tr>
-</table>
-
-### Day 14
-<table>
-<tr><td> Part 1</td>
-<td>6513443633260</td><td> Execution time :0,0083s</td></tr>
-<tr><td> Part 2</td>
-<td>3442819875191</td><td> Execution time :0,0208s</td></tr>
-</table>
-
-### Day 15
-<table>
-<tr><td> Part 1</td>
-<td>700</td><td> Execution time :0,0427s</td></tr>
-<tr><td> Part 2</td>
-<td>51358</td><td> Execution time :4,2418s</td></tr>
-</table>
-
-### Day 16
-<table>
-<tr><td> Part 1</td>
-<td>25895</td><td> Execution time :0,0022s</td></tr>
-<tr><td> Part 2</td>
-<td>5865723727753</td><td> Execution time :0,0499s</td></tr>
-</table>
-
-### Day 17
-<table>
-<tr><td> Part 1</td>
-<td>202</td><td> Execution time :0,157s</td></tr>
-<tr><td> Part 2</td>
-<td>2028</td><td> Execution time :4,5308s</td></tr>
-</table>
-
-### Day 18
-<table>
-<tr><td> Part 1</td>
-<td>14006719520523</td><td> Execution time :0,0071s</td></tr>
-<tr><td> Part 2</td>
-<td>545115449981968</td><td> Execution time :0,0081s</td></tr>
-</table>
-
-### Day 19
-<table>
-<tr><td> Part 1</td>
-<td>299</td><td> Execution time :0,0092s</td></tr>
-<tr><td> Part 2</td>
-<td>414</td><td> Execution time :0,444s</td></tr>
-</table>
-
-### Day 20
-<table>
-<tr><td> Part 1</td>
-<td>11788777383197</td><td> Execution time :0,0062s</td></tr>
-<tr><td> Part 2</td>
-<td>2242</td><td> Execution time :0,0076s</td></tr>
-</table>
-
-### Day 21
-<table>
-<tr><td> Part 1</td>
-<td>2162</td><td> Execution time :0,0103s</td></tr>
-<tr><td> Part 2</td>
-<td>lmzg,cxk,bsqh,bdvmx,cpbzbx,drbm,cfnt,kqprv</td><td> Execution time :0,0033s</td></tr>
-</table>
-
-### Day 22
-<table>
-<tr><td> Part 1</td>
-<td>34127</td><td> Execution time :0,0088s</td></tr>
-<tr><td> Part 2</td>
-<td>32054</td><td> Execution time :2,7053s</td></tr>
-</table>
-
-### Day 23
-<table>
-<tr><td> Part 1</td>
-<td>67384529</td><td> Execution time :0,041s</td></tr>
-<tr><td> Part 2</td>
-<td>149245887792</td><td> Execution time :7,1589s</td></tr>
-</table>
-
-### Day 24
-<table>
-<tr><td> Part 1</td>
-<td>10</td><td> Execution time :0,0047s</td></tr>
-<tr><td> Part 2</td>
-<td>2208</td><td> Execution time :1,0699s</td></tr>
-</table>
-
-### Day 25
-<table>
-<tr><td> Part 1</td>
-<td>12929</td><td> Execution time :0,0853s</td></tr>
-</table>
+| Day | Solution                   | Part 1     | Part 2     |
+| :-- | :--------------------------| ---------: | ---------: |
+| 1   | [Report Repair](Advent-of-code/2020/Day01.cs)    | 0.0188 s | 0.0004 s |
+| 2   | [Password Philosophy](Advent-of-code/2020/Day02.cs)    | 0.0127 s | 0.0004 s |
+| 3   | [Toboggan Trajectory](Advent-of-code/2020/Day03.cs)    | 0.0001 s | 0.0020 s |
+| 4   | [Passport Processing](Advent-of-code/2020/Day04.cs)    | 0.0186 s | 0.0254 s |
+| 5   | [Binary Boarding](Advent-of-code/2020/Day05.cs)    | 0.0040 s | 0.0039 s |
+| 6   | [Custom Customs](Advent-of-code/2020/Day06.cs)    | 0.2339 s | 0.0081 s |
+| 7   | [Handy Haversacks](Advent-of-code/2020/Day07.cs)    | 0.0336 s | 0.0003 s |
+| 8   | [Handheld Halting](Advent-of-code/2020/Day08.cs)    | 0.0036 s | 0.0046 s |
+| 9   | [Encoding Error](Advent-of-code/2020/Day09.cs)    | 0.0024 s | 0.0017 s |
+| 10   | [Adapter Array](Advent-of-code/2020/Day10.cs)    | 0.0027 s | 0.0049 s |
+| 11   | [Seating System](Advent-of-code/2020/Day11.cs)    | 0.2383 s | 0.3132 s |
+| 12   | [Rain Risk](Advent-of-code/2020/Day12.cs)    | 0.0010 s | 0.0009 s |
+| 13   | [Shuttle Search](Advent-of-code/2020/Day13.cs)    | 0.0024 s | 0.0040 s |
+| 14   | [Docking Data](Advent-of-code/2020/Day13.cs)    | 0.0083 s | 0.0208 s |
+| 15   | [Rambunctious Recitation](Advent-of-code/2020/Day13.cs)    | 0.0427 s | 4.2418 s |
+| 16   | [Ticket Translation](Advent-of-code/2020/Day13.cs)    | 0.0022 s | 0.0499 s |
+| 17   | [Conway Cubes](Advent-of-code/2020/Day13.cs)    | 0.1570 s | 4.5308 s |
+| 18   | [Operation Order](Advent-of-code/2020/Day13.cs)    | 0.0071 s | 0.0081 s |
+| 19   | [Monster Messages](Advent-of-code/2020/Day13.cs)    | 0.0092 s | 0.4440 s |
+| 20   | [Jurassic Jigsaw](Advent-of-code/2020/Day13.cs)    | 0.0062 s | 0.0076 s |
+| 21   | [Allergen Assessment](Advent-of-code/2020/Day13.cs)    | 0.0103 s | 0.0033 s |
+| 22   | [Crab Combat](Advent-of-code/2020/Day13.cs)    | 0.0088 s | 2.7053 s |
+| 23   | [Crab Cups](Advent-of-code/2020/Day13.cs)    | 0.0410 s | 7.1589 s |
+| 24   | [Lobby Layout](Advent-of-code/2020/Day13.cs)    | 0.0047 s | 1.0699 s |
+| 25   | [Combo Breaker](Advent-of-code/2020/Day13.cs)    | 0.0853 s |          |

@@ -306,6 +306,71 @@ namespace Advent_of_code.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à SHHNCOPHONHFBVNKCFFC
+        ///
+        ///HH -&gt; K
+        ///PS -&gt; P
+        ///BV -&gt; H
+        ///HB -&gt; H
+        ///CK -&gt; F
+        ///FN -&gt; B
+        ///PV -&gt; S
+        ///KK -&gt; F
+        ///OF -&gt; C
+        ///SF -&gt; B
+        ///KB -&gt; S
+        ///HO -&gt; O
+        ///NH -&gt; N
+        ///ON -&gt; V
+        ///VF -&gt; K
+        ///VP -&gt; K
+        ///PH -&gt; K
+        ///FF -&gt; V
+        ///OV -&gt; N
+        ///BO -&gt; K
+        ///PO -&gt; S
+        ///CH -&gt; N
+        ///FO -&gt; V
+        ///FB -&gt; H
+        ///FV -&gt; N
+        ///FK -&gt; S
+        ///VC -&gt; V
+        ///CP -&gt; K
+        ///CO -&gt; K
+        ///SV -&gt; N
+        ///PP -&gt; B
+        ///BS -&gt; P
+        ///VS -&gt; C
+        ///HV -&gt; H
+        ///NN -&gt; F
+        ///NK -&gt; C
+        ///PC -&gt; V
+        ///HS -&gt; S
+        ///FS -&gt; S
+        ///OB -&gt; S
+        ///VV -&gt; N
+        ///VO -&gt; P
+        ///KV -&gt; F
+        ///SK -&gt; O
+        ///BC -&gt; P
+        ///BP -&gt; F
+        ///NS -&gt; P
+        ///SN -&gt; S
+        ///NC -&gt; N
+        ///FC -&gt; V
+        ///CN -&gt; S
+        ///OK -&gt; B
+        ///SC -&gt; N
+        ///HN -&gt; B
+        ///HP [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string Input14 {
+            get {
+                return ResourceManager.GetString("Input14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à forward 8
         ///down 9
         ///forward 2

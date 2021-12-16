@@ -11,7 +11,7 @@ namespace Advent_of_code
     class Program
     {
         static readonly int Day = 25;
-        static readonly int Start = 1;
+        static readonly int Start = 15;
         static void Main(string[] args)
         {
             (string, ResourceManager) choice = PrintChoice();

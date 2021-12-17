@@ -20,33 +20,37 @@ namespace Advent_of_code._2021
         public static int Part1(string input)
         {
             int[][] matrix = input.Split(Environment.NewLine).Select(x => x.Select(y => (int)Char.GetNumericValue(y)).ToArray()).ToArray();
-            return Dijkstra(matrix);
+            return Dijkstra(matrix,(matrix.Length - 1, matrix[0].Length - 1));
         }
 
-        public static int Dijkstra(int[][] matrix)
+        public static int Dijkstra(int[][] matrix,(int,int) to)
         {
-            Dictionary<(int, int), int> Distances = new Dictionary<(int, int), int>();
+            Dictionary<(int, int), (int, List<(int, int)>)> Distances = new();
             List<(int, int)> Done = new();
-            SortedList<(int, int), int> Parcours = new();
+            Dictionary<(int, int), int> Parcours = new();
             Parcours.Add((0, 0), 0);
-            Distances.Add((0, 0), 0);
+            Distances.Add((0, 0), (0, new List<(int, int)>() { (0, 0) }));
             while (Parcours.Count > 0)
             {
-                var currentPos = Parcours.First();
-                int dist = Distances.GetValueOrDefault(currentPos.Key, 0);
-                foreach (var neighbour in _neighbors(currentPos.Key.Item1, currentPos.Key.Item2, matrix.Length, matrix[0].Length).Where(x => !Done.Contains(x)))
+                var currentPos = Parcours.OrderBy(x => x.Value).First();
+                int dist = Distances.GetValueOrDefault(currentPos.Key, (0,new())).Item1;
+                
+                foreach (var neighbour in _neighbors(currentPos.Key.Item1, currentPos.Key.Item2, matrix.Length, matrix[0].Length).Where(x => !Done.Contains(x) && !Parcours.ContainsKey(x)))
                 {
                     int currentDist = dist + matrix[neighbour.x][neighbour.y];
-                    if (Distances.GetValueOrDefault(neighbour, int.MaxValue) > currentDist)
-                        Distances[neighbour] = currentDist;
+                    if (Distances.GetValueOrDefault(neighbour, (int.MaxValue,new())).Item1 >= currentDist)
+                    {
+                        List<(int, int)> last = new(Distances[currentPos.Key].Item2);
+                        last.Add(neighbour);
+                        Distances[neighbour] = (currentDist, last);
+                    }
+
                     Parcours[neighbour] = currentDist;
-                    if (neighbour == (matrix.Length - 1, matrix.Length - 1))
-                        break;
                 }
-                Parcours.RemoveAt(0);
+                Parcours.Remove(currentPos.Key);
                 Done.Add(currentPos.Key);
             }
-            return Distances[(matrix.Length - 1, matrix[0].Length - 1)];
+            return Distances[to].Item1;
         }
 
         public static int Part2(string input)
@@ -57,26 +61,25 @@ namespace Advent_of_code._2021
 
             for (int i = 0; i < completeMap.Length; i++)
             {
-                completeMap[i] = new int[5 * size];
+                completeMap[i] = new int[5 * matrix[0].Length];
             }
             for (int i = 0; i < size; i++)
             {
-                for(int j = 0; j < size; j++)
+                for (int j = 0; j < matrix[0].Length; j++)
                 {
-                    for(int d = 0;d < 5; d++)
+                    for (int d = 0; d < 5; d++)
                     {
                         for (int q = 0; q < 5; q++)
                         {
                             int inc = matrix[i][j] + d + q;
                             if (inc > 9)
                                 inc = (inc) % 9;
-                            completeMap[i + size * d][j+ q * size] = inc;
-                            completeMap[i + q * size][j + size * d] = inc;
+                            completeMap[i + d * size][j + matrix[0].Length * q] = inc;
                         }
                     }
                 }
             }
-            return Dijkstra(completeMap);
+            return Dijkstra(completeMap, (completeMap.Length - 1, completeMap[0].Length - 1));
         }
     }
 }

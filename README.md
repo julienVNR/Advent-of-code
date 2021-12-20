@@ -27,7 +27,8 @@
 | 12   | [Passage Pathing](Advent-of-code/2021/Day12.cs)    | 0.04504 s | 0.49745 s |
 | 13   | [Transparent Origami](Advent-of-code/2021/Day13.cs)    | 0.00665 s | 0.00791 s |
 | 14   | [Extended Polymerization](Advent-of-code/2021/Day14.cs)    | 0.07802 s | 0.01158 s |
-| 15   | [Chiton](Advent-of-code/2021/Day14.cs)    | 0.34770 s | 162,55802 s |
+| 15   | [Chiton](Advent-of-code/2021/Day15.cs)    | 0.34770 s | 162,55802 s |
+| 15   | [Packet Decoder](Advent-of-code/2021/Day16.cs)    | 0.00793 s | 0,00423 s |
 
 ## 2020
 

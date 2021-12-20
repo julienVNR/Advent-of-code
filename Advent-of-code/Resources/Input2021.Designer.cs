@@ -394,6 +394,15 @@ namespace Advent_of_code.Resources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à target area: x=14..50, y=-267..-225.
+        /// </summary>
+        internal static string Input17 {
+            get {
+                return ResourceManager.GetString("Input17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à forward 8
         ///down 9
         ///forward 2

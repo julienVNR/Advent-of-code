@@ -35,7 +35,7 @@ namespace Advent_of_code._2021
                 var currentPos = Parcours.OrderBy(x => x.Value).First();
                 int dist = Distances.GetValueOrDefault(currentPos.Key, (0,new())).Item1;
                 
-                foreach (var neighbour in _neighbors(currentPos.Key.Item1, currentPos.Key.Item2, matrix.Length, matrix[0].Length).Where(x => !Done.Contains(x) && !Parcours.ContainsKey(x)))
+                foreach (var neighbour in _neighbors(currentPos.Key.Item1, currentPos.Key.Item2, matrix.Length, matrix[0].Length).Where(x => !Done.Contains(x)))
                 {
                     int currentDist = dist + matrix[neighbour.x][neighbour.y];
                     if (Distances.GetValueOrDefault(neighbour, (int.MaxValue,new())).Item1 >= currentDist)
@@ -44,8 +44,8 @@ namespace Advent_of_code._2021
                         last.Add(neighbour);
                         Distances[neighbour] = (currentDist, last);
                     }
-
-                    Parcours[neighbour] = currentDist;
+                    if(!Parcours.ContainsKey(neighbour))
+                        Parcours[neighbour] = currentDist;
                 }
                 Parcours.Remove(currentPos.Key);
                 Done.Add(currentPos.Key);
